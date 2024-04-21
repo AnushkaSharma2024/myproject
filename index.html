@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Login & Sign Up Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+  <div class="container">
+  <!-- account details for sign up-->
+  <div class="form-container sign-up-container">
+    <form action="Cloud2.html" method="get">
+        <h1>Your Account</h1>
+        <input type="text" placeholder="Name" />
+        <input type="password" placeholder="Password" />
+        <div class="input-container email-container">
+            <input type="email" placeholder="Email" />
+        </div>
+        <button class="sign-up-btn">Sign in</button>
+    </form>
+  </div>
+  <!--account details for sign in -->
+  <div class="form-container sign-in-container">
+    <form action="Cloud2.html" method="get">
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+        <button>Sign up</button>
+    </form>
+  </div>
+  <div class="overlay-container">
+    <div class="overlay">
+        <!-- for signed in transform -->
+        <div class="overlay-panel overlay-left">
+            <h1>Welcome Back!</h1>
+            <p>To keep connected with us, please login with your personal info</p>
+            <button class="ghost" id="signIn">Sign In</button>
+        </div>
+        <!-- for signed up transform -->
+        <div class="overlay-panel overlay-right">
+            <h1>Welcome!</h1>
+            <p>Enter your details and start your journey with us</p>
+            <button class="ghost" id="signUp">Sign Up</button>
+        </div>
+    </div>
+  </div>
+  </div>
+  <script src="style.js"></script>
+</body>
+
+</html>
